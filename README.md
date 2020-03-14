@@ -38,3 +38,6 @@ The changes won't apply until you close and reopen the app. Or you are using Dev
 
 ## Want to get rid of this theme?
 Delete everything out of the 2 CSS files and you will be back to normal.
+
+## Want to see more themes and talk about Joplin CSS? 
+Visit https://discourse.joplinapp.org/t/share-your-css/1730/56
