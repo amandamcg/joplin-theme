@@ -12,11 +12,11 @@ You can see a larger zoomed out view if you open `full-screen.png`
 ## To use
 1. From the Joplin app, navigate to Joplin > Preferences > Appearances
 
-1. Under the Advanced Settings button:
+2. Under the Advanced Settings button:
     - Edit `Custom stylesheet for rendered Markdown` and paste the content from `userstyle.css`
     - Edit `Custom stylesheet for Joplin-wide app styles` and paste the content from `userchrome.css`
 
-1. Install fonts on your computer
+3. Install fonts on your computer
 
 This theme assumes you have IBM Plex Sans and Mono installed on your machine. Install those from https://github.com/IBM/plex or change the following lines in both css files to your favorite font:
 ```
@@ -24,7 +24,7 @@ This theme assumes you have IBM Plex Sans and Mono installed on your machine. In
 --font-mono: "IBM Plex Mono";
 ```
 
-1. Things looking weird?
+4. Things looking weird?
 - Make sure to select the "Dark" Theme in Joplin > Preferences > Appearances
 - Editor font size is set to 14
 
@@ -37,3 +37,6 @@ The changes won't apply until you close and reopen the app. Or you are using Dev
 
 ## Want to get rid of this theme?
 Delete everything out of the 2 CSS files and you will be back to normal.
+
+## Want to see more themes and talk about Joplin CSS? 
+Visit https://discourse.joplinapp.org/t/share-your-css/1730/56
