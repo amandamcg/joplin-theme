@@ -1,0 +1,226 @@
+/* For styling the Joplin app (except the HTML-ized markdown, which is defined in `userstyle.css`) */
+/* designed by uxamanda (https://discourse.joplinapp.org/u/uxamanda). latest version https://github.com/amandamcg/joplin-theme */
+:root {
+    --white: #FBFCFB;
+    --dark-white: #EEF0EA;
+    --light-grey: #A3A79F;
+    --grey: #575856;
+    --dark-grey: #292A28;
+    --darker-grey: #1D2024;
+    --black: #040404;
+    --primary: #0097DB;
+    --base-size-1: 1px;
+    --base-size-4: 4px;
+    --base-size-13: 13px;
+    --base-size-18: 18px;
+    --base-size-24: 24px;
+    --base-size-32: 32px;
+    --base-size-40: 40px;
+    --base-size-272: 272px;
+    --font-sans: "IBM Plex Sans";
+    --font-mono: "IBM Plex Mono";
+    --font-weight-light: 200;
+    --font-weight-base: 300;
+    --font-weight-bold: 500;
+    --font-line-height: 1.1em;
+}
+
+body {
+    background-color: var(--darker-grey) !important;
+}
+
+#react-root>div>div>div:last-child, .noteTextViewer {
+    border-left: var(--base-size-1) solid var(--dark-grey) !important;
+}
+
+.editor-toolbar {
+    border-bottom: var(--base-size-1) solid var(--dark-grey) !important;
+}
+
+/* markdown */
+.ace_text-layer {
+    padding: 3%;
+}
+
+.ace_content {
+    background-color: var(--darker-grey) !important;
+}
+
+.ace_editor div, .ace_editor span {
+    font-family: "IBM Plex Mono" !important;
+    font-weight: --font-weight-base;
+    color: var(--light-grey);
+}
+
+.ace_heading {
+    color: var(--white) !important;
+}
+
+.ace_variable {
+    color: var(--white) !important;
+}
+
+.ace_list {
+    color: var(--light-grey) !important;
+}
+
+.ace_string {
+    color: var(--primary) !important;
+}
+
+.ace_cursor {
+    border-left: var(--base-size-1) solid var(--primary) !important;
+}
+
+/* prevent cursor from blinking */
+/* https://discourse.joplinapp.org/t/share-your-css/1730/17 */
+.ace_cursor-layer:not(.ace_hidden-cursors) .ace_cursor {
+    opacity: 1 !important;
+}
+
+/* gui */
+.side-bar {}
+
+.side-bar {
+    background-color: var(--dark-grey) !important;
+}
+
+.side-bar .folders {}
+
+.side-bar .folders .list-item, .side-bar div, .side-bar span {
+    color: --base-size-13var(--white) !important;
+    font-weight: --font-weight-base !important;
+    font-size: var(--base-size-13) !important;
+    margin-bottom: var(--base-size-1);
+}
+
+.side-bar div div {
+    font-size: var(--base-size-13) !important;
+}
+
+.synchronize-button {}
+
+.note-list {
+    background-color: rgb(29, 32, 36);
+}
+
+.note-list input[type="checkbox"i] {
+    opacity: 0.5 !important;
+}
+
+.note-list div {
+    border-bottom: 0 !important;
+}
+
+.note-list input[type="checkbox"i] {
+    margin-right: 1em !important;
+}
+
+.note-list .list-item-container {
+    background-color: transparent !important;
+}
+
+.note-list a.list-item span, .tags .list-item {
+    /* font-family: "IBM Plex Mono" !important; */
+    /* font-size: 12px !important; */
+    color: var(--light-grey) !important;
+}
+
+/* icons */
+.fa {
+    color: var(--grey) !important;
+}
+
+#react-root>div {
+    background-color: var(--dark-grey) !important;
+}
+
+#react-root div div div:last-child div input {
+    font-size: var(--base-size-18);
+    font-family: var(--font-mono);
+    font-weight: var(--font-weight-light);
+}
+
+.editor-toolbar {
+    height: 50px;
+}
+
+.editor-toolbar .button {
+    height: var(--base-size-40)
+}
+
+.editor-toolbar .button i {
+    font-size: var(--base-size-13) !important;
+}
+
+.header {
+    border-bottom: var(--base-size-1) solid var(--dark-grey) !important;
+}
+
+.header .title {
+    color: var(--grey);
+}
+
+/* toggle sidebar */
+.header *:nth-child(1) {
+    order: 1
+}
+
+/* toggle notebooks */
+.header *:nth-child(2) {
+    order: 2
+}
+
+/* new note */
+.header *:nth-child(3) {
+    order: 5
+}
+
+/* new todo */
+.header *:nth-child(4) {
+    order: 6
+}
+
+/* new notebook */
+.header *:nth-child(5) {
+    order: 4;
+    margin-left: var(--base-size-24);
+}
+
+/* layout */
+.header *:nth-child(6) {
+    order: 3
+}
+
+/* search */
+.header *:nth-child(7) {
+    order: 7;
+    margin-left: auto;
+}
+
+.header *:nth-child(7) input {
+    margin-right: var(--base-size-4) !important;
+    margin-left: auto !important;
+    width: var(--base-size-272);
+    margin-top: 2px;
+}
+
+input {
+    border-radius: var(--base-size-4) !important;
+    border: 0px !important;
+    background-color: var(--dark-grey) !important;
+    border: var(--base-size-1) solid var(--dark-grey) !important;
+}
+
+input:focus {
+    outline: none;
+    border: var(--base-size-1) solid var(--primary) !important;
+}
+
+.header *:nth-child(7) a {
+    display: none;
+}
+
+.header .title {
+    display: none !important;
+}

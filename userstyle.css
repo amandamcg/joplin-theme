@@ -1,0 +1,147 @@
+/* html-ized markdown */
+/* designed by uxamanda (https://discourse.joplinapp.org/u/uxamanda). latest version https://github.com/amandamcg/joplin-theme */
+:root {
+    --white: #FBFCFB;
+    --dark-white: #EEF0EA;
+    --light-grey: #A3A79F;
+    --grey: #575856;
+    --dark-grey: #292A28;
+    --darker-grey: #1D2024;
+    --black: #040404;
+    --primary: #0097DB;
+    --base-size-1: 1px;
+    --base-size-4: 4px;
+    --base-size-13: 13px;
+    --base-size-18: 18px;
+    --base-size-24: 24px;
+    --base-size-32: 32px;
+    --base-size-40: 40px;
+    --base-size-272: 272px;
+    --font-sans: "IBM Plex Sans";
+    --font-mono: "IBM Plex Mono";
+    --font-weight-light: 200;
+    --font-weight-base: 300;
+    --font-weight-bold: 500;
+    --font-line-height: 1.1em;
+}
+
+.hljs {
+    background-color: var(--black);
+    padding: var(--base-size-18);
+    border-radius: var(--base-size-4) !important;
+}
+
+#rendered-md {
+    padding: 6%;
+}
+
+body {
+    font-family: var(--font-sans) !important;
+    font-weight: var(--font-weight-base) !important;
+    color: var(--dark-white);
+    background-color: var(--darker-grey);
+}
+
+p, h1, h2, h3, h4, h5, h6, ul, table {
+    margin-top: 0;
+}
+
+h1, h2, h3 {
+    font-weight: var(--font-weight-light) !important;
+    letter-spacing: 0.01em;
+    margin-top: var(--base-size-24);
+}
+
+h1 {
+    font-size: var(--base-size-32) !important;
+    line-height: var(--font-line-height) !important;
+    margin-top: var(--base-size-40) !important;
+    border-bottom: none !important;
+}
+
+h1:first-child {
+    margin-top: 0px !important;
+}
+
+h2 {
+    font-size: var(--base-size-24);
+}
+
+h3 {
+    font-size: var(--base-size-18);
+}
+
+p, li {
+    /* font-weight: var(--font-weight-base) !important; */
+    letter-spacing: .03em;
+    color: var(--light-grey);
+    margin-bottom: var(--base-size-24);
+}
+
+ol li, ul li {
+    margin-bottom: var(--base-size-4);
+}
+
+ul ul {
+    /* list-style-type: cjk-heavenly-stem; */
+    list-style-type: disc;
+}
+
+hr {
+    padding: var(--base-size-24) !important;
+}
+
+.md-checkbox {
+    margin-left: 0 !important;
+}
+
+.md-checkbox input[type="checkbox"i] {
+    margin-left: -24px !important;
+    opacity: 0.5 !important;
+}
+
+.md-checkbox input[type=checkbox]:checked {
+    opacity: 0.3 !important;
+    text-decoration: line-through;
+    ;
+}
+
+a {
+    text-decoration: none !important;
+    padding: 0 0 var(--base-size-4) 0 !important;
+    color: var(--primary) !important;
+    font-weight: var(--font-weight-bold) !important;
+    vertical-align: middle;
+}
+
+a:hover {
+    border-bottom: var(--base-size-1) dashed var(--primary) !important;
+}
+
+/* joplin icon in joplin link */
+.resource-icon {
+    background-color: var(--primary) !important;
+}
+
+/*
+```
+code blocks
+```
+*/
+pre {
+    font-family: var(--font-mono) !important;
+}
+
+/* ```inline code``` */
+.inline-code {
+    padding: .3em .6em !important;
+    border-radius: var(--base-size-4) !important;
+    background-color: #040404 !important;
+    border: none !important;
+    color: #abb2bf !important;
+}
+
+/* ==emphasis== */
+mark {
+    padding: 0 var(--base-size-4) !important;
+}
