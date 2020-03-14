@@ -7,8 +7,7 @@ Learn more about [Joplin](http://joplinapp.org).
 Here it is at normal zoom.
 ![normal-zoom.png](normal-zoom.png)
 
-Here's a zoomed out view.
-![full-screen.png](full-screen.png)
+You can see a larger zoomed out view if you open `full-screen.png`
 
 ## To use
 1. From the Joplin app, navigate to Joplin > Preferences > Appearances
