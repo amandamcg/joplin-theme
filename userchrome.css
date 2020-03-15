@@ -33,6 +33,10 @@ body {
     border-left: var(--base-size-1) solid var(--dark-grey) !important;
 }
 
+#react-root>div>div>div:last-child {
+    border-left: none !important;
+}
+
 .editor-toolbar {
     border-bottom: var(--base-size-1) solid var(--dark-grey) !important;
 }
