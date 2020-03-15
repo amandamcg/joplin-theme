@@ -47,7 +47,7 @@ body {
 }
 
 .ace_editor div, .ace_editor span {
-    font-family: "IBM Plex Mono" !important;
+    font-family: var(--font-mono) !important;
     font-weight: --font-weight-base;
     color: var(--light-grey);
 }
