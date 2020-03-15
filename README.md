@@ -3,6 +3,8 @@
 This repo houses my Joplin theme. Joplin is an open source note taking app.
 Learn more about [Joplin](http://joplinapp.org).
 
+It has been tested on Mac version Joplin 1.0.194 (prod, darwin)
+
 ## Screenshots
 Here it is at normal zoom.
 ![normal-zoom.png](normal-zoom.png)
