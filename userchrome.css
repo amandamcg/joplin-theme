@@ -29,7 +29,7 @@ body {
     background-color: var(--darker-grey) !important;
 }
 
-#react-root>div>div>div:last-child, .noteTextViewer {
+.noteTextViewer {
     border-left: var(--base-size-1) solid var(--dark-grey) !important;
 }
 
