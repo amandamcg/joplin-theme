@@ -8,9 +8,9 @@ It has been tested on Mac version Joplin 1.0.194 (prod, darwin). It was original
 
 ## Screenshots
 Here it is at normal zoom.
-![v0.5-updates.png](v0.5-updates.png)
+![v0.5-updates.png](/screenshots/v0.5-updates.png)
 
-You can see a larger zoomed out view if you open `full-screen.png`
+You can see a larger zoomed out view if you open `/img/full-screen.png`
 
 ## 1. Install Font
 
@@ -30,23 +30,26 @@ Install those from [https://github.com/IBM/plex](https://github.com/IBM/plex) or
 - Edit `Custom stylesheet for Joplin-wide app styles` and paste the content from `userchrome.css`
 
 
-## 3. Things looking weird?
-- Make sure to select the "Dark" Theme in `Joplin > Preferences > Appearances`
-- Editor font size is set to 14
-
-## 4. Tweak the variables
-Lots of this theme is defined in the `:root` section of  `userstyle.css` and `userchrome.css`. You can update colors and sizing there.
-
-That might be a good place to start to see how the theme is built if you want to build your own.
-
-![variable-definition.png](variable-definition.png)
-
-I prefer navigating to `~/.config/joplin-desktop` and editing the two files directly.
-
 ### Apply Changes
 The css changes won't apply until you close and reopen the app.
 
 HINT: If you are using Dev Tools to mess with CSS `Help > Toggle Developer tools`, you can hit `Command-R` (Mac) to Force Reload the app to apply the CSS without having to quit.
+
+## 3. Check to see how it looks.
+You can paste `css-sample.md` into a new Joplin note to see it in action.
+
+- Make sure to select the "Dark" Theme in `Joplin > Preferences > Appearances`
+- Editor font size is set to 14
+
+![joplin-appearance-settings.png](/img/joplin-appearance-settings.png)
+
+## 4. Tweak the variables
+Lots of this theme is defined in the `:root` section of  `userstyle.css` and `userchrome.css`. You can update colors and sizing there.
+
+![variable-definition.png](/img/variable-definition.png)
+
+I prefer navigating to `~/.config/joplin-desktop` and editing the two files directly.
+
 
 ## Delete Theme
 - Open the Joplin app
