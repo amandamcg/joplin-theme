@@ -62,6 +62,9 @@ I prefer navigating to `~/.config/joplin-desktop` and editing the two files dire
 Visit https://discourse.joplinapp.org/t/share-your-css/1730/56
 
 ## Releases to this Theme
+## v0.5.1
+- cleaning up docs
+
 ## v0.5
 - Adding a release log
 - Updating screenshots to show code formatting
