@@ -95,9 +95,14 @@ hr {
     margin-left: 0 !important;
 }
 
+.md-checkbox .checkbox-wrapper {
+    align-items: flex-start;
+}
+
 .md-checkbox input[type="checkbox"i] {
     margin-left: -24px !important;
     opacity: 0.5 !important;
+    margin-top: 7px;
 }
 
 .md-checkbox input[type=checkbox]:checked {
