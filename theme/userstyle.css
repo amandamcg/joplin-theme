@@ -46,7 +46,7 @@ p, h1, h2, h3, h4, h5, h6, ul, table {
     margin-top: 0;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-weight: var(--font-weight-light) !important;
     letter-spacing: 0.01em;
     margin-top: var(--base-size-24);
@@ -67,7 +67,7 @@ h2 {
     font-size: var(--base-size-24);
 }
 
-h3 {
+h3, h4 {
     font-size: var(--base-size-18);
 }
 
