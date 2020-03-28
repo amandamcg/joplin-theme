@@ -9,6 +9,7 @@
     --darker-grey: #1D2024;
     --black: #040404;
     --primary: #0097DB;
+    --darker-primary: #099;
     --base-size-1: 1px;
     --base-size-4: 4px;
     --base-size-13: 13px;
@@ -101,8 +102,9 @@ hr {
 
 .md-checkbox input[type="checkbox"i] {
     margin-left: -24px !important;
-    opacity: 0.5 !important;
+    opacity: 0.8 !important;
     margin-top: 7px;
+    border: var(--base-size-1) solid var(--darker-primary);
 }
 
 .md-checkbox input[type=checkbox]:checked {
@@ -114,34 +116,31 @@ hr {
 a {
     text-decoration: none !important;
     padding: 0 0 var(--base-size-4) 0 !important;
-    color: var(--primary) !important;
+    color: var(--darker-primary) !important;
     font-weight: var(--font-weight-bold) !important;
 }
 
 a:hover {
-    border-bottom: var(--base-size-1) dashed var(--primary) !important;
+    border-bottom: var(--base-size-1) dashed var(--darker-primary) !important;
 }
 
-/* weird hack to make all icons have an icon so they align */
-a:before {
-    content: "→";
-    background-color: var(--primary);
-    padding: 1px 2px 2px 8px;
-    margin-right: 13px;
-    border-radius: 5px;
-    color: #0097db;
-    margin-top: 5px;
-    vertical-align: middle;
-    font-size: 14px;
+a[data-resource-id] {
+    color: var(--primary) !important;
+    /* change the colour of INTERNAL links */
+    /* https://discourse.joplinapp.org/t/share-your-css/1730/65 */
+}
+
+a[data-resource-id] :hover {
+    border-bottom: var(--base-size-1) dashed var(--primary) !important;
 }
 
 /* joplin icon in joplin link */
 .resource-icon {
-    margin-left: -33px;
-    margin-right: 15px;
-    background-color: var(--dark-grey) !important;
-    padding-top: 1px;
-    font-size: 15px;
+    background-color: var(--primary) !important;
+    width: 10px;
+    height: 12px;
+    top: 0.1em;
+    padding: 0;
 }
 
 /*
