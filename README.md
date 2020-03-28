@@ -8,7 +8,7 @@ It has been tested on Mac version Joplin 1.0.194 (prod, darwin). It was original
 
 ## Screenshots
 Here it is at normal zoom.
-![v0.5.2-updates.png](/screenshots/v0.5-updates.png)
+![v0.5.2-updates.png](/screenshots/v0.5.2-updates.png)
 
 You can see a larger zoomed out view if you open `/img/full-screen.png`
 
