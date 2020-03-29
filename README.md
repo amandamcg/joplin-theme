@@ -58,7 +58,7 @@ Lots of this theme is defined in the `:root` section of  `userstyle.css` and `us
     --darker-grey: #1D2024;
     --black: #040404;
     --primary: #0097DB;
-    --darker-primary: #099;
+    --darker-primary: #005378;
     --base-size-1: 1px;
     --base-size-4: 4px;
     --base-size-13: 13px;
