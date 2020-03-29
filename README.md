@@ -8,9 +8,9 @@ It has been tested on Mac version Joplin 1.0.194 (prod, darwin). It was original
 
 ## Screenshots
 Here it is at normal zoom.
-![v0.5.2-updates.png](/screenshots/v0.5.2-updates.png)
+![v0.5.3-updates.png](/screenshots/v0.5.3-updates.png)
 
-You can see a larger zoomed out view if you open `/img/full-screen.png`
+You can see an (older) larger view that shows the whole interface if you open `/img/full-screen.png`
 
 ## 1. Install Font
 
@@ -64,6 +64,10 @@ I prefer navigating to `~/.config/joplin-desktop` and editing the two files dire
 Visit https://discourse.joplinapp.org/t/share-your-css/1730/56
 
 ## Releases to this Theme
+##0.5.3
+- fixed the resource icon size
+- updated the css
+
 ##0.5.2
 - removed the hack that added an icon next to every link, looked bad for inline links, weird alignment issues. reduced the size of the Joplin J for internal links.
 - fix the checkbox alignment issue seen in v1.0.194
