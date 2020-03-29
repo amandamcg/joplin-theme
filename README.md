@@ -46,9 +46,35 @@ You can paste `css-sample.md` into a new Joplin note to see it in action.
 - HINT: I often have to force quit and restart the app after applying CSS changes and switching notes, not sure why.
 
 ## 4. Tweak the variables
-Lots of this theme is defined in the `:root` section of  `userstyle.css` and `userchrome.css`. You can update colors and sizing there.
+Lots of this theme is defined in the `:root` section of  `userstyle.css` and `userchrome.css`. You can update colors and sizing there. Make sure to update the variables in both files!
 
-![variable-definition.png](/img/variable-definition.png)
+```
+:root {
+    --white: #FBFCFB;
+    --dark-white: #EEF0EA;
+    --light-grey: #A3A79F;
+    --grey: #575856;
+    --dark-grey: #292A28;
+    --darker-grey: #1D2024;
+    --black: #040404;
+    --primary: #0097DB;
+    --darker-primary: #099;
+    --base-size-1: 1px;
+    --base-size-4: 4px;
+    --base-size-13: 13px;
+    --base-size-18: 18px;
+    --base-size-24: 24px;
+    --base-size-32: 32px;
+    --base-size-40: 40px;
+    --base-size-272: 272px;
+    --font-sans: "IBM Plex Sans";
+    --font-mono: "IBM Plex Mono";
+    --font-weight-light: 200;
+    --font-weight-base: 300;
+    --font-weight-bold: 500;
+    --font-line-height: 1.1em;
+}
+```
 
 I prefer navigating to `~/.config/joplin-desktop` and editing the two files directly.
 
@@ -64,11 +90,14 @@ I prefer navigating to `~/.config/joplin-desktop` and editing the two files dire
 Visit https://discourse.joplinapp.org/t/share-your-css/1730/56
 
 ## Releases to this Theme
-##0.5.3
+## 0.5.4
+- cleaning up docs
+
+## 0.5.3
 - fixed the resource icon size
 - updated the css
 
-##0.5.2
+## 0.5.2
 - removed the hack that added an icon next to every link, looked bad for inline links, weird alignment issues. reduced the size of the Joplin J for internal links.
 - fix the checkbox alignment issue seen in v1.0.194
 - update h4 to match h3
