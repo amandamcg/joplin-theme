@@ -137,10 +137,9 @@ a[data-resource-id] :hover {
 /* joplin icon in joplin link */
 .resource-icon {
     background-color: var(--primary) !important;
-    width: 10px;
-    height: 12px;
+    width: 0.75em;
+    height: 0.9em;
     top: 0.1em;
-    padding: 0;
 }
 
 /*
