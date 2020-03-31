@@ -9,7 +9,7 @@
     --darker-grey: #1D2024;
     --black: #040404;
     --primary: #0097DB;
-    --darker-primary: #005378;
+    --secondary: #52DEE5;
     --base-size-1: 1px;
     --base-size-4: 4px;
     --base-size-13: 13px;
@@ -104,7 +104,7 @@ hr {
     margin-left: -24px !important;
     opacity: 0.8 !important;
     margin-top: 7px;
-    border: var(--base-size-1) solid var(--darker-primary);
+    border: var(--base-size-1) solid var(--secondary);
 }
 
 .md-checkbox input[type=checkbox]:checked {
@@ -116,12 +116,12 @@ hr {
 a {
     text-decoration: none !important;
     padding: 0 0 var(--base-size-4) 0 !important;
-    color: var(--darker-primary) !important;
+    color: var(--secondary) !important;
     font-weight: var(--font-weight-bold) !important;
 }
 
 a:hover {
-    border-bottom: var(--base-size-1) dashed var(--darker-primary) !important;
+    border-bottom: var(--base-size-1) dashed var(--secondary) !important;
 }
 
 a[data-resource-id] {

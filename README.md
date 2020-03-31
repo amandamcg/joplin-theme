@@ -8,7 +8,7 @@ It has been tested on Mac version Joplin 1.0.194 (prod, darwin). It was original
 
 ## Screenshots
 Here it is at normal zoom.
-![v0.5.3-updates.png](/screenshots/v0.5.3-updates.png)
+![v0.5.5-updates.png](/screenshots/v0.5.5-updates.png)
 
 You can see an (older) larger view that shows the whole interface if you open `/img/full-screen.png`
 
@@ -58,7 +58,7 @@ Lots of this theme is defined in the `:root` section of  `userstyle.css` and `us
     --darker-grey: #1D2024;
     --black: #040404;
     --primary: #0097DB;
-    --darker-primary: #005378;
+    --secondary: #005378;
     --base-size-1: 1px;
     --base-size-4: 4px;
     --base-size-13: 13px;
@@ -90,6 +90,10 @@ I prefer navigating to `~/.config/joplin-desktop` and editing the two files dire
 Visit https://discourse.joplinapp.org/t/share-your-css/1730/56
 
 ## Releases to this Theme
+## 0.5.5
+- made external link color brighter
+- changed external link color variable to "secondary" to be more clear
+
 ## 0.5.4
 - cleaning up docs
 
