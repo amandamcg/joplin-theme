@@ -4,13 +4,13 @@ a dark mode theme for Joplin.
 
 Joplin is an open source note taking app. Learn more about [Joplin](http://joplinapp.org).
 
-It has been tested on Mac version Joplin 1.0.194 (prod, darwin). It was originally built for 1.0.195 and the scrollbars are very slightly different than the screenshots.
+It has been tested on Mac version Joplin 1.0.197 (prod, darwin). 
 
 ## Screenshots
 Here it is at normal zoom.
 ![v0.5.5-updates.png](/screenshots/v0.5.5-updates.png)
 
-You can see an (older) larger view that shows the whole interface if you open `/img/full-screen.png`
+You can see the full layout in an larger view that shows the whole interface if you open `/img/full-screen.png`. Note: this markup part of this screenshot is slightly outdated.
 
 ## 1. Install Font
 
