@@ -93,7 +93,7 @@ body {
 .side-bar .folders {}
 
 .side-bar .folders .list-item, .side-bar div, .side-bar span {
-    color: --base-size-13var(--white) !important;
+    color: var(--white) !important;
     font-weight: --font-weight-base !important;
     font-size: var(--base-size-13) !important;
     margin-bottom: var(--base-size-1);
