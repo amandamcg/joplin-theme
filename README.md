@@ -4,13 +4,16 @@ a dark mode theme for Joplin.
 
 Joplin is an open source note taking app. Learn more about [Joplin](http://joplinapp.org).
 
-It has been tested on Mac version Joplin 1.0.197 (prod, darwin). 
+It has been tested on Mac version Joplin 1.0.197 (prod, darwin).
 
 ## Screenshots
-Here it is at normal zoom.
-![v0.5.5-updates.png](/screenshots/v0.5.5-updates.png)
+![v0.5.6-updates.png](/screenshots/v0.5.6-updates.png)
+Note: the bright orange bar will only be there if you need to upgrade or have another warning. :-)
 
-You can see the full layout in an larger view that shows the whole interface if you open `/img/full-screen.png`. Note: this markup part of this screenshot is slightly outdated.
+Here is an example of the folder hierarchy.
+![folder-example.png](/img/folder-example.png)
+
+
 
 ## 1. Install Font
 
@@ -90,6 +93,10 @@ I prefer navigating to `~/.config/joplin-desktop` and editing the two files dire
 Visit https://discourse.joplinapp.org/t/share-your-css/1730/56
 
 ## Releases to this Theme
+## 0.5.6
+- updating the folders to more clearly show hierarchy, based on comments https://discourse.joplinapp.org/t/cleaner-design-of-the-sidebar/7604
+- fixes a typo found by u/xplosionmind
+
 ## 0.5.5
 - made external link color brighter
 - changed external link color variable to "secondary" to be more clear
