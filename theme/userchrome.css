@@ -118,6 +118,7 @@ body {
 
 .note-list {
     background-color: var(--darker-grey);
+    padding: var(--base-size-8) 0;
 }
 
 .note-list input[type="checkbox"i] {
@@ -145,6 +146,7 @@ body {
 /* icons */
 .fa {
     color: var(--grey) !important;
+    padding-right: var(--base-size-4);
 }
 
 #react-root>div {
@@ -168,6 +170,10 @@ body {
 
 .editor-toolbar .button i {
     font-size: var(--base-size-13) !important;
+}
+
+.editor-toolbar .fa {
+    padding-right: 0;
 }
 
 .header {
@@ -219,7 +225,6 @@ body {
     margin-right: var(--base-size-4) !important;
     margin-left: auto !important;
     width: var(--base-size-272);
-    margin-top: 2px;
 }
 
 input {
