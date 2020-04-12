@@ -98,7 +98,7 @@ body {
 .side-bar {}
 
 .side-bar {
-    background-color: var(--dark-grey) !important;
+    background-color: var(--darker-grey) !important;
 }
 
 .side-bar .folders {}
@@ -117,7 +117,7 @@ body {
 .synchronize-button {}
 
 .note-list {
-    background-color: rgb(29, 32, 36);
+    background-color: var(--darker-grey);
 }
 
 .note-list input[type="checkbox"i] {
@@ -155,6 +155,7 @@ body {
     font-size: var(--base-size-18);
     font-family: var(--font-mono);
     font-weight: var(--font-weight-light);
+    color: var(--light-grey);
 }
 
 .editor-toolbar {
