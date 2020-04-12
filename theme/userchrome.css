@@ -48,6 +48,9 @@ body {
     margin-bottom: 0 !important;
 }
 
+.editor-toolbar span:last-of-type {
+    width: 100% !important;
+    /* makes the last set of options in the toolbar aligned-right */
 }
 
 /* markdown */
