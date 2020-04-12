@@ -154,9 +154,16 @@ body {
 }
 
 #react-root div div div:last-child div input {
-    font-size: var(--base-size-18);
+    margin-right: var(--base-size-18) !important;
+    height: var(--base-size-18) !important;
+    font-size: var(--base-size-18) !important;
     font-family: var(--font-mono);
     font-weight: var(--font-weight-light);
+    padding-right: var(--base-size-24);
+}
+
+#react-root div div div:last-child div span {
+    padding-right: var(--base-size-4);
     color: var(--light-grey);
 }
 
