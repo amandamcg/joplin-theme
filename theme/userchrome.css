@@ -5,9 +5,9 @@
     --dark-white: #EEF0EA;
     --light-grey: #A3A79F;
     --grey: #575856;
-    --dark-grey: rgb(51, 51, 51);
+    --dark-grey: #272728;
     --darker-grey: #1D2024;
-    --black: #040404;
+    --black: #131517;
     --primary: #0097DB;
     --secondary: #005378;
     --base-size-1: 1px;
@@ -41,6 +41,7 @@ body {
 
 #react-root>div>div>div:last-child {
     border-left: none !important;
+    background-color: var(--black)
 }
 
 .editor-toolbar {
@@ -59,7 +60,7 @@ body {
 }
 
 .ace_content {
-    background-color: var(--darker-grey) !important;
+    background-color: var(--black) !important;
 }
 
 .ace_editor div, .ace_editor span {
@@ -95,10 +96,9 @@ body {
 }
 
 /* gui */
-.side-bar {}
-
 .side-bar {
     background-color: var(--darker-grey) !important;
+    opacity: 0.7;
 }
 
 .side-bar .folders {}
@@ -119,6 +119,7 @@ body {
 .note-list {
     background-color: var(--darker-grey);
     padding: var(--base-size-8) 0;
+    opacity: 0.7;
 }
 
 .note-list input[type="checkbox"i] {
@@ -155,16 +156,12 @@ body {
 
 #react-root div div div:last-child div input {
     margin-right: var(--base-size-18) !important;
-    height: var(--base-size-18) !important;
+    margin-top: var(--base-size-8) !important;
+    height: var(--base-size-24) !important;
     font-size: var(--base-size-18) !important;
     font-family: var(--font-mono);
     font-weight: var(--font-weight-light);
-    padding-right: var(--base-size-24);
-}
-
-#react-root div div div:last-child div span {
-    padding-right: var(--base-size-4);
-    color: var(--light-grey);
+    background-color: var(--darker-grey) !important
 }
 
 .editor-toolbar {
@@ -238,7 +235,7 @@ input {
     border-radius: var(--base-size-4) !important;
     border: 0px !important;
     background-color: var(--dark-grey) !important;
-    border: var(--base-size-1) solid var(--dark-grey) !important;
+    border: var(--base-size-1) solid var(--darker-grey) !important;
 }
 
 input:focus {
