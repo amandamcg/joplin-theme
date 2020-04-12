@@ -31,6 +31,10 @@ body {
     background-color: var(--darker-grey) !important;
 }
 
+#note-editor {
+    margin-top: var(--base-size-24) !important;
+}
+
 .noteTextViewer {
     border-left: var(--base-size-1) solid var(--dark-grey) !important;
 }
@@ -41,6 +45,9 @@ body {
 
 .editor-toolbar {
     border-bottom: var(--base-size-1) solid var(--dark-grey) !important;
+    margin-bottom: 0 !important;
+}
+
 }
 
 /* markdown */
