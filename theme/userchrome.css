@@ -31,10 +31,6 @@ body {
     background-color: var(--darker-grey) !important;
 }
 
-#note-editor {
-    margin-top: var(--base-size-24) !important;
-}
-
 .noteTextViewer {
     border-left: var(--base-size-1) solid var(--dark-grey) !important;
 }
