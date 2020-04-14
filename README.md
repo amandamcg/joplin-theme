@@ -7,13 +7,7 @@ Joplin is an open source note taking app. Learn more about [Joplin](http://jopli
 It has been tested on Mac version Joplin 1.0.197 (prod, darwin).
 
 ## Screenshots
-![v0.5.6-updates.png](/screenshots/v0.5.6-updates.png)
-Note: the bright orange bar will only be there if you need to upgrade or have another warning. :-)
-
-Here is an example of the folder hierarchy.
-![folder-example.png](/img/folder-example.png)
-
-
+![v0.5.7-updates.png](/screenshots/v0.5.7-updates.png)
 
 ## 1. Install Font
 
@@ -93,6 +87,11 @@ I prefer navigating to `~/.config/joplin-desktop` and editing the two files dire
 Visit https://discourse.joplinapp.org/t/share-your-css/1730/56
 
 ## Releases to this Theme
+## 0.5.7
+- another pass on colors to make them more cohesive
+- added opacity to notes list and sidebar to make the nested folder colors more subtle
+- rearranging icons in the toolbar
+
 ## 0.5.6
 - updating the folders to more clearly show hierarchy, based on comments https://discourse.joplinapp.org/t/cleaner-design-of-the-sidebar/7604
 - fixes a typo found by u/xplosionmind
