@@ -1,7 +1,7 @@
 /* For styling the Joplin app (except the HTML-ized markdown, which is defined in `userstyle.css`) */
 /* designed by uxamanda (https://discourse.joplinapp.org/u/uxamanda). latest version https://github.com/amandamcg/joplin-theme */
 :root {
-    --white: #FBFCFB;
+    --white: #e3e3e3;
     --dark-white: #EEF0EA;
     --light-grey: #A3A79F;
     --grey: #575856;
