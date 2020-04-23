@@ -130,10 +130,6 @@ body {
     margin-right: 1em !important;
 }
 
-.note-list .list-item-container {
-    background-color: transparent !important;
-}
-
 .note-list a.list-item span, .tags .list-item {
     /* font-family: "IBM Plex Mono" !important; */
     /* font-size: 12px !important; */

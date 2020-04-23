@@ -87,6 +87,9 @@ I prefer navigating to `~/.config/joplin-desktop` and editing the two files dire
 Visit https://discourse.joplinapp.org/t/share-your-css/1730/56
 
 ## Releases to this Theme
+## 0.5.8
+- bring back selected note in notebook color
+
 ## 0.5.7
 - another pass on colors to make them more cohesive
 - added opacity to notes list and sidebar to make the nested folder colors more subtle
