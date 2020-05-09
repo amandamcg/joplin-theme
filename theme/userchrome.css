@@ -94,20 +94,26 @@ body {
 /* gui */
 .side-bar {
     background-color: var(--darker-grey) !important;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 .side-bar .folders {}
 
 .side-bar .folders .list-item, .side-bar div, .side-bar span {
     color: var(--white) !important;
-    font-weight: --font-weight-base !important;
+    font-weight: var(--font-weight-base) !important;
     font-size: var(--base-size-13) !important;
     margin-bottom: var(--base-size-1);
 }
 
 .side-bar div div {
     font-size: var(--base-size-13) !important;
+}
+
+.list-item div {
+    margin-left: auto !important;
+    padding-right: var(--base-size-13) !important;
+    opacity: 0.3 !important;
 }
 
 .synchronize-button {}
@@ -252,7 +258,30 @@ input:focus {
 }
 
 .folders a.list-item {
-    border-left: 1px solid var(--grey) !important;
     padding-left: 9px;
     margin: 0 !important;
+}
+
+.side-bar>div:last-child div {
+    font-family: var(--font-mono) !important;
+    font-size: 11px !important;
+    padding: 2px;
+}
+
+.side-bar>div:last-child {
+    padding: var(--base-size-4) !important;
+    font-family: var(--font-mono) !important;
+    border-top: var(--base-size-1) solid var(--black);
+}
+
+.synchronize-button {
+    border: none !important;
+    background: var(--dark-grey);
+    border-radius: var(--base-size-4) !important;
+    padding: var(--base-size-13) !important;
+    color: var(--light-grey) !important;
+    text-transform: uppercase;
+    font-family: var(--font-mono) !important;
+    font-weight: var(--font-weight-bold) !important;
+    letter-spacing: 1px;
 }
