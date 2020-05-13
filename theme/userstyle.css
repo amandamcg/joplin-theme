@@ -114,7 +114,7 @@ hr {
     ;
 }
 
-a {
+a, summary {
     text-decoration: none !important;
     padding: 0 0 var(--base-size-4) 0 !important;
     color: var(--secondary) !important;
