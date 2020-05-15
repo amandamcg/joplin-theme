@@ -87,7 +87,7 @@ I prefer navigating to `~/.config/joplin-desktop` and editing the two files dire
 Visit https://discourse.joplinapp.org/t/share-your-css/1730/56
 
 ## Releases to this Theme
-##0.5.9
+## 0.5.9
 - minor changes to notbook list style
 - updated the synchronize button / section
 - merged pull request to fix summary / detail view
