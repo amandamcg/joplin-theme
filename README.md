@@ -7,7 +7,7 @@ Joplin is an open source note taking app. Learn more about [Joplin](http://jopli
 It has been tested on Mac version Joplin 1.0.207 (prod, darwin).
 
 ## Screenshots
-![v0.5.7-updates.png](/screenshots/v0.5.7-updates.png)
+![v0.5.7-updates.png](/screenshots/v0.6-updates.png)
 
 ## 1. Install Font
 
