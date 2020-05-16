@@ -4,7 +4,7 @@ a dark mode theme for Joplin.
 
 Joplin is an open source note taking app. Learn more about [Joplin](http://joplinapp.org).
 
-It has been tested on Mac version Joplin 1.0.201 (prod, darwin).
+It has been tested on Mac version Joplin 1.0.207 (prod, darwin).
 
 ## Screenshots
 ![v0.5.7-updates.png](/screenshots/v0.5.7-updates.png)
@@ -87,6 +87,10 @@ I prefer navigating to `~/.config/joplin-desktop` and editing the two files dire
 Visit https://discourse.joplinapp.org/t/share-your-css/1730/56
 
 ## Releases to this Theme
+##0.6
+- Fixes for Joplin 1.0.207, major changes to layout with introduction of "code" button
+- sidebar no longer has extra highlighting (this is a change to Joplin, not the CSS)
+
 ## 0.5.9
 - minor changes to notbook list style
 - updated the synchronize button / section

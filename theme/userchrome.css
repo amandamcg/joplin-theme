@@ -40,14 +40,26 @@ body {
     background-color: var(--black)
 }
 
-.editor-toolbar {
+#react-root>div>div>div:last-child>div>div {
+    border-bottom: var(--base-size-1) solid var(--dark-grey) !important;
+}
+
+#react-root>div>div>div:last-child>div>div>div .editor-toolbar {
     border-bottom: var(--base-size-1) solid var(--dark-grey) !important;
     margin-bottom: 0 !important;
+}
+
+#react-root>div>div>div:last-child>div>div .editor-toolbar {
+    border-bottom: none !important;
 }
 
 .editor-toolbar span:last-of-type {
     width: 100% !important;
     /* makes the last set of options in the toolbar aligned-right */
+}
+
+#react-root>div>div>div:last-child>div>div>div>div:last-child>div:last-child {
+    border: none !important;
 }
 
 /* markdown */
@@ -153,8 +165,8 @@ body {
 }
 
 #react-root div div div:last-child div input {
+    margin: 0 !important;
     margin-right: var(--base-size-18) !important;
-    margin-top: var(--base-size-8) !important;
     height: var(--base-size-24) !important;
     font-size: var(--base-size-18) !important;
     font-family: var(--font-mono);
@@ -163,7 +175,7 @@ body {
 }
 
 .editor-toolbar {
-    height: 50px;
+    order: 2
 }
 
 .editor-toolbar .button {
@@ -187,46 +199,55 @@ body {
 }
 
 /* toggle sidebar */
-.header *:nth-child(1) {
+.header>*:nth-child(1) {
     order: 1
 }
 
 /* toggle notebooks */
-.header *:nth-child(2) {
+.header>*:nth-child(2) {
     order: 2
 }
 
 /* new note */
-.header *:nth-child(3) {
+.header>*:nth-child(3) {
     order: 5
 }
 
 /* new todo */
-.header *:nth-child(4) {
+.header>*:nth-child(4) {
     order: 6
 }
 
 /* new notebook */
-.header *:nth-child(5) {
+.header>*:nth-child(5) {
     order: 4;
     margin-left: var(--base-size-24);
 }
 
 /* layout */
-.header *:nth-child(6) {
+.header>*:nth-child(6) {
     order: 3
 }
 
-/* search */
-.header *:nth-child(7) {
-    order: 7;
-    margin-left: auto;
+/* layout */
+.header>*:nth-child(7) {
+    order: 7
 }
 
-.header *:nth-child(7) input {
+/* search */
+.header>*:nth-child(8) {
+    margin-left: auto;
+    order: 8
+}
+
+.header>*:nth-child(7) input, .header>*:nth-child(8) input {
     margin-right: var(--base-size-4) !important;
     margin-left: auto !important;
     width: var(--base-size-272);
+}
+
+.header>*:nth-child(7) a, .header>*:nth-child(8) a {
+    display: none
 }
 
 input {
