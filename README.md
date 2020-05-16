@@ -87,7 +87,7 @@ I prefer navigating to `~/.config/joplin-desktop` and editing the two files dire
 Visit https://discourse.joplinapp.org/t/share-your-css/1730/56
 
 ## Releases to this Theme
-##0.6
+## 0.6
 - Fixes for Joplin 1.0.207, major changes to layout with introduction of "code" button
 - sidebar no longer has extra highlighting (this is a change to Joplin, not the CSS)
 
