@@ -32,8 +32,9 @@
     font-weight: var(--font-weight-base) !important;
 }
 
-.fa {
-    font: normal normal normal 14px/1 ForkAwesome !important;
+.fa, .far, .fas {
+    font-weight: 900 !important;
+    font-family: "Font Awesome 5 Free" !important;
 }
 
 body {
