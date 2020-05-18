@@ -22,9 +22,18 @@
     --font-sans: "IBM Plex Sans";
     --font-mono: "IBM Plex Mono";
     --font-weight-light: 200;
-    --font-weight-base: 300;
+    --font-weight-base: 400;
     --font-weight-bold: 500;
     --font-line-height: 1.1em;
+}
+
+* {
+    font-family: var(--font-sans) !important;
+    font-weight: var(--font-weight-base) !important;
+}
+
+.fa {
+    font: normal normal normal 14px/1 ForkAwesome !important;
 }
 
 body {
