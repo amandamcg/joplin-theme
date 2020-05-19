@@ -87,6 +87,9 @@ I prefer navigating to `~/.config/joplin-desktop` and editing the two files dire
 Visit https://discourse.joplinapp.org/t/share-your-css/1730/56
 
 ## Releases to this Theme
+## 0.6.2
+- fixing icon color spacing
+
 ## 0.6.1
 - Switching to custom font throughout
 

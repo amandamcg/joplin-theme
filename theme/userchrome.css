@@ -165,7 +165,7 @@ body {
 }
 
 /* icons */
-.fa {
+.fa, .far, .fas {
     color: var(--grey) !important;
     padding-right: var(--base-size-4);
 }
@@ -196,7 +196,7 @@ body {
     font-size: var(--base-size-13) !important;
 }
 
-.editor-toolbar .fa {
+.editor-toolbar .fa, .editor-toolbar .fas {
     padding-right: 0;
 }
 
