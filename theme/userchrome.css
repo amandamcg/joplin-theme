@@ -165,6 +165,10 @@ body {
     color: var(--light-grey) !important;
 }
 
+.tag-list {
+    order: 4;
+}
+
 /* icons */
 .fa, .far, .fas {
     color: var(--grey) !important;
