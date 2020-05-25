@@ -199,6 +199,10 @@ body {
     height: var(--base-size-40)
 }
 
+.editor-toolbar .button, .header .button {
+    border: 0 !important;
+}
+
 .editor-toolbar .button i {
     font-size: var(--base-size-13) !important;
 }
@@ -243,7 +247,9 @@ body {
 
 /* layout */
 .header>*:nth-child(6) {
-    order: 3
+    order: 3;
+    background-color: transparent !important;
+    padding-top: 0px !important;
 }
 
 /* layout */
