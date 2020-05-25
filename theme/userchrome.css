@@ -54,6 +54,10 @@ body {
     border-bottom: var(--base-size-1) solid var(--dark-grey) !important;
 }
 
+#react-root>div>div>div:last-child>div>div>span {
+    padding: 0 18px 4px 4px !important;
+}
+
 #react-root>div>div>div:last-child>div>div>div .editor-toolbar {
     border-bottom: var(--base-size-1) solid var(--dark-grey) !important;
     margin-bottom: 0 !important;
