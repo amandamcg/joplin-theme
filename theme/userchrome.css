@@ -301,6 +301,10 @@ input:focus {
     margin: 0 !important;
 }
 
+.note-list .list-item-container:hover, .folders .list-item-container:hover {
+    background-color: var(--grey) !important;
+}
+
 .folders a.list-item {
     padding-left: 9px;
     margin: 0 !important;
