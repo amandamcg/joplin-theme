@@ -182,7 +182,9 @@ body {
 #react-root div div div:last-child div input {
     margin: 0 !important;
     margin-right: var(--base-size-18) !important;
-    height: var(--base-size-24) !important;
+    margin-bottom: 4px !important;
+    height: 34px !important;
+    min-height: 34px !important;
     font-size: var(--base-size-18) !important;
     font-family: var(--font-mono);
     font-weight: var(--font-weight-light);
