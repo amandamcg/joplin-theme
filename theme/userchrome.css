@@ -278,6 +278,7 @@ input {
     border: 0px !important;
     background-color: var(--dark-grey) !important;
     border: var(--base-size-1) solid var(--darker-grey) !important;
+    opacity: 0.8;
 }
 
 input:focus {
