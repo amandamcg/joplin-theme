@@ -13,6 +13,7 @@
     --base-size-1: 1px;
     --base-size-4: 4px;
     --base-size-8: 8px;
+    --base-size-10: 10px;
     --base-size-13: 13px;
     --base-size-18: 18px;
     --base-size-24: 24px;
@@ -25,6 +26,7 @@
     --font-weight-base: 400;
     --font-weight-bold: 500;
     --font-line-height: 1.1em;
+    --z-toc: 99;
 }
 
 * {

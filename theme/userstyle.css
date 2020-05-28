@@ -13,6 +13,7 @@
     --base-size-1: 1px;
     --base-size-4: 4px;
     --base-size-8: 8px;
+    --base-size-10: 10px;
     --base-size-13: 13px;
     --base-size-18: 18px;
     --base-size-24: 24px;
@@ -25,6 +26,7 @@
     --font-weight-base: 300;
     --font-weight-bold: 500;
     --font-line-height: 1.1em;
+    --z-toc: 99;
 }
 
 .hljs {
@@ -164,4 +166,46 @@ pre {
 /* ==emphasis== */
 mark {
     padding: 0 var(--base-size-4) !important;
+}
+
+nav.table-of-contents>ul {
+    top: 0;
+    right: 0;
+    position: fixed;
+    z-index: var(--z-toc);
+    background: var(--dark-grey);
+    padding: var(--base-size-8);
+    border-radius: var(--base-size-4);
+    max-width: 15%;
+    font-size: var(--base-size-10);
+    max-height: var(--base-size-272);
+    overflow: scroll;
+    opacity: 0.6;
+}
+
+nav.table-of-contents ul {
+    list-style-type: none;
+    margin-left: var(--base-size-4);
+}
+
+nav.table-of-contents li {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 0;
+}
+
+nav.table-of-contents li a {
+    padding: 0;
+}
+
+@media all and (min-width: 920px) {
+    nav.table-of-contents>ul {
+        height: 100%;
+        max-height: 100%;
+    }
+
+    #rendered-md {
+        width: 75%;
+    }
 }

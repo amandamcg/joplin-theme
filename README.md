@@ -7,7 +7,7 @@ Joplin is an open source note taking app. Learn more about [Joplin](http://jopli
 It has been tested on Mac version Joplin 1.0.216 (prod, darwin).
 
 ## Screenshots
-![v0.6.3-updates.png](/screenshots/v0.6-updates.png)
+![v0.7-updates.png](/screenshots/v0.7-updates.png)
 
 ## 1. Install Font
 
@@ -47,17 +47,19 @@ Lots of this theme is defined in the `:root` section of  `userstyle.css` and `us
 
 ```
 :root {
-    --white: #FBFCFB;
+    --white: #e3e3e3;
     --dark-white: #EEF0EA;
     --light-grey: #A3A79F;
     --grey: #575856;
-    --dark-grey: #292A28;
+    --dark-grey: #272728;
     --darker-grey: #1D2024;
-    --black: #040404;
+    --black: #131517;
     --primary: #0097DB;
     --secondary: #005378;
     --base-size-1: 1px;
     --base-size-4: 4px;
+    --base-size-8: 8px;
+    --base-size-10: 10px;
     --base-size-13: 13px;
     --base-size-18: 18px;
     --base-size-24: 24px;
@@ -67,9 +69,10 @@ Lots of this theme is defined in the `:root` section of  `userstyle.css` and `us
     --font-sans: "IBM Plex Sans";
     --font-mono: "IBM Plex Mono";
     --font-weight-light: 200;
-    --font-weight-base: 300;
+    --font-weight-base: 400;
     --font-weight-bold: 500;
     --font-line-height: 1.1em;
+    --z-toc: 99;
 }
 ```
 
@@ -87,6 +90,9 @@ I prefer navigating to `~/.config/joplin-desktop` and editing the two files dire
 Visit https://discourse.joplinapp.org/t/share-your-css/1730/56
 
 ## Releases to this Theme
+## 0.7
+- floating TOC, thanks to some great ideas here: https://discourse.joplinapp.org/t/toc-as-the-sidebar/5979/19
+
 ## 0.6.3
 - moving tag list and fixing other minor spacing issues
 
