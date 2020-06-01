@@ -80,6 +80,9 @@ p, li {
     letter-spacing: .03em;
     color: var(--light-grey);
     margin-bottom: var(--base-size-24);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
 }
 
 ol li, ul li {
