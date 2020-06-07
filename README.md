@@ -4,10 +4,10 @@ a dark mode theme for Joplin.
 
 Joplin is an open source note taking app. Learn more about [Joplin](http://joplinapp.org).
 
-It has been tested on Mac version Joplin 1.0.216 (prod, darwin).
+It has been tested on Mac version Joplin 1.0.218 (prod, darwin).
 
 ## Screenshots
-![v0.7-updates.png](/screenshots/v0.7-updates.png)
+![v0.7.1-updates.png](/screenshots/v0.7.1-updates.png)
 
 ## 1. Install Font
 
@@ -90,6 +90,10 @@ I prefer navigating to `~/.config/joplin-desktop` and editing the two files dire
 Visit https://discourse.joplinapp.org/t/share-your-css/1730/56
 
 ## Releases to this Theme
+## 0.7.1
+- rearranged buttons to make more sense
+- hyphenation support (apparently only works on mac)
+
 ## 0.7
 - floating TOC, thanks to some great ideas here: https://discourse.joplinapp.org/t/toc-as-the-sidebar/5979/19
 
