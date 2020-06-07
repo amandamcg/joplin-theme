@@ -139,6 +139,11 @@ body {
     font-size: var(--base-size-13) !important;
 }
 
+/* making icons the same width so text aligns */
+.side-bar .fas:first-of-type {
+    width: var(--base-size-18)
+}
+
 .list-item div {
     margin-left: auto !important;
     padding-right: var(--base-size-13) !important;
@@ -314,7 +319,7 @@ input:focus {
 }
 
 .folders a.list-item {
-    padding-left: 9px;
+    padding-left: var(--base-size-8);
     margin: 0 !important;
 }
 
