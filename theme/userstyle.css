@@ -190,7 +190,7 @@ nav.table-of-contents>ul {
     font-size: calc(var(--font-size)/1.3) !important;
     max-height: var(--base-size-272);
     overflow: scroll;
-    opacity: 0.6;
+    opacity: 0.8;
 }
 
 nav.table-of-contents ul {
@@ -207,6 +207,7 @@ nav.table-of-contents li {
 
 nav.table-of-contents li a {
     padding: 0;
+    color: var(--light-grey) !important;
 }
 
 @media all and (min-width: 920px) {
