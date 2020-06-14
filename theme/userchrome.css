@@ -18,6 +18,7 @@
     --base-size-32: 32px;
     --base-size-40: 40px;
     --base-size-272: 272px;
+    --z-toc: 99;
     --font-weight-light: 200;
     --font-weight-base: 400;
     --font-weight-bold: 500;
@@ -28,7 +29,6 @@
     --font-line-height: 1.2em;
     --font-size: var(--base-size-13);
     --icon-size: var(--font-size);
-    --z-toc: 99;
 }
 
 * {

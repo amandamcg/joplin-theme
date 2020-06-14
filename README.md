@@ -54,8 +54,6 @@ Lots of this theme is defined in the `:root` section of  `userstyle.css` and `us
     --dark-grey: #272728;
     --darker-grey: #1D2024;
     --black: #131517;
-    --primary: #0097DB;
-    --secondary: #005378;
     --base-size-1: 1px;
     --base-size-4: 4px;
     --base-size-8: 8px;
@@ -66,17 +64,21 @@ Lots of this theme is defined in the `:root` section of  `userstyle.css` and `us
     --base-size-32: 32px;
     --base-size-40: 40px;
     --base-size-272: 272px;
-    --font-sans: "IBM Plex Sans";
-    --font-mono: "IBM Plex Mono";
+    --z-toc: 99;
     --font-weight-light: 200;
     --font-weight-base: 400;
     --font-weight-bold: 500;
-    --font-line-height: 1.1em;
-    --z-toc: 99;
+    --font-sans: "IBM Plex Sans";
+    --font-mono: "IBM Plex Mono";
+    --primary: #0097DB;
+    --secondary: #005378;
+    --font-line-height: 1.2em;
+    --font-size: var(--base-size-13);
+    --icon-size: var(--font-size);
 }
 ```
 
-I prefer navigating to `~/.config/joplin-desktop` and editing the two files directly.
+I prefer navigating to `~/.config/joplin-desktop` from my editor and editing the two files directly (vs opening them from the Joplin menu).
 
 
 ## Delete Theme
@@ -90,6 +92,10 @@ I prefer navigating to `~/.config/joplin-desktop` and editing the two files dire
 Visit https://discourse.joplinapp.org/t/share-your-css/1730/56
 
 ## Releases to this Theme
+## 0.8
+- refactoring variables to include a font size and icon size
+- updated table of contents style
+
 ## 0.7.1
 - rearranged buttons to make more sense
 - hyphenation support (apparently only works on mac)
