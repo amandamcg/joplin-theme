@@ -72,7 +72,7 @@ Lots of this theme is defined in the `:root` section of  `userstyle.css` and `us
     --font-mono: "IBM Plex Mono";
     --primary: #0097DB;
     --secondary: #005378;
-    --font-line-height: 1.2em;
+    --font-line-height: 1.4em;
     --font-size: var(--base-size-13);
     --icon-size: var(--font-size);
 }
@@ -92,6 +92,9 @@ I prefer navigating to `~/.config/joplin-desktop` from my editor and editing the
 Visit https://discourse.joplinapp.org/t/share-your-css/1730/56
 
 ## Releases to this Theme
+## 0.8.1
+- adjusting line height
+
 ## 0.8
 - refactoring variables to include a font size and icon size
 - updated table of contents style

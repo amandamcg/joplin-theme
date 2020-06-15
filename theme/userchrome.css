@@ -26,7 +26,7 @@
     --font-mono: "IBM Plex Mono";
     --primary: #0097DB;
     --secondary: #005378;
-    --font-line-height: 1.2em;
+    --font-line-height: 1.4em;
     --font-size: var(--base-size-13);
     --icon-size: var(--font-size);
 }
