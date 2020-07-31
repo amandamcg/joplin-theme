@@ -25,7 +25,7 @@
     --font-sans: "IBM Plex Sans";
     --font-mono: "IBM Plex Mono";
     --primary: #0097DB;
-    --secondary: #005378;
+    --secondary: #00dbcc;
     --font-line-height: 1.4em;
     --font-size: var(--base-size-13);
     --icon-size: var(--font-size);
@@ -34,7 +34,6 @@
 * {
     font-family: var(--font-sans) !important;
     font-weight: var(--font-weight-base) !important;
-    font-size: var(--font-size) !important;
     line-height: var(--font-line-height) !important;
 }
 
@@ -53,8 +52,8 @@ body {
 }
 
 #react-root>div>div>div:last-child {
+    background-color: var(--black);
     border-left: none !important;
-    background-color: var(--black)
 }
 
 #react-root>div>div>div:last-child>div>div {
@@ -350,4 +349,22 @@ input:focus {
     font-family: var(--font-mono) !important;
     font-weight: var(--font-weight-bold) !important;
     letter-spacing: 1px;
+}
+
+/* code mirror */
+.cm-s-material-darker.CodeMirror {
+    background-color: var(--black) !important;
+    color: var(--light-grey) !important
+}
+
+.cm-s-material-darker .cm-variable-2 {
+    color: var(--light-grey) !important
+}
+
+.cm-s-material-darker .cm-string {
+    color: var(--primary) !important
+}
+
+.cm-header-1, .cm-header-2, .cm-header-3, .cm-header-4 {
+    color: var(--dark-white) !important
 }
