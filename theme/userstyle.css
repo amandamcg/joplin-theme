@@ -179,6 +179,9 @@ mark {
     padding: 0 var(--base-size-4) !important;
 }
 
+@media screen {
+
+
 nav.table-of-contents>ul {
     top: 0;
     right: 0;
@@ -220,4 +223,5 @@ nav.table-of-contents li a {
     #rendered-md {
         width: 75%;
     }
+}
 }
