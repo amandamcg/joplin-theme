@@ -1,3 +1,6 @@
+### NOTE: This theme works best on the "old" design of Joplin. It has not been integrated with the new design launched Fall 2020.
+
+---
 ## joplin theme
 # dark mode
 a dark mode theme for Joplin.
