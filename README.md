@@ -1,4 +1,6 @@
-### NOTE: This theme works best on the "old" design of Joplin. It has not been integrated with the new design launched Fall 2020.
+# NOTE: This theme works best on the "old" design of Joplin. It has not been integrated with the new design launched Fall 2020.
+# I recommend you use/start from this https://github.com/ajilderda/joplin-macos-native-theme instead
+
 
 ---
 ## joplin theme
